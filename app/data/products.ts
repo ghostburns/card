@@ -1,0 +1,98 @@
+export const products = [
+  {
+    id: 1,
+    name: "Waffle with Berries",
+    category: "Waffle",
+    price: 6.5,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+  {
+    id: 2,
+    name: "Vanilla Bean Crème Brûlée",
+    category: "Crème Brûlée",
+    price: 7.0,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+  {
+    id: 3,
+    name: "Macaron Mix of Five",
+    category: "Macaron",
+    price: 8.0,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+  {
+    id: 4,
+    name: "Classic Tiramisu",
+    category: "Tiramisu",
+    price: 5.5,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+  {
+    id: 5,
+    name: "Pistachio Baklava",
+    category: "Baklava",
+    price: 4.0,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+  {
+    id: 6,
+    name: "Red Velvet Cake",
+    category: "Cake",
+    price: 4.5,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+  {
+    id: 7,
+    name: "Salted Caramel Brownie",
+    category: "Brownie",
+    price: 5.5,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+  {
+    id: 8,
+    name: "Vanilla Panna Cotta",
+    category: "Panna Cotta",
+    price: 6.5,
+    image: {
+      thumbnail: "/placeholder.svg?height=100&width=100",
+      mobile: "/placeholder.svg?height=240&width=300",
+      tablet: "/placeholder.svg?height=240&width=300",
+      desktop: "/placeholder.svg?height=240&width=300",
+    },
+  },
+]
