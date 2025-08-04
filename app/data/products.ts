@@ -5,10 +5,10 @@ export const products = [
     category: "Waffle",
     price: 6.5,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=300&h=240&fit=crop&crop=center",
     },
   },
   {
@@ -17,10 +17,10 @@ export const products = [
     category: "Crème Brûlée",
     price: 7.0,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?w=300&h=240&fit=crop&crop=center",
     },
   },
   {
@@ -29,10 +29,10 @@ export const products = [
     category: "Macaron",
     price: 8.0,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=300&h=240&fit=crop&crop=center",
     },
   },
   {
@@ -41,10 +41,10 @@ export const products = [
     category: "Tiramisu",
     price: 5.5,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=300&h=240&fit=crop&crop=center",
     },
   },
   {
@@ -53,10 +53,10 @@ export const products = [
     category: "Baklava",
     price: 4.0,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=300&h=240&fit=crop&crop=center",
     },
   },
   {
@@ -65,10 +65,10 @@ export const products = [
     category: "Cake",
     price: 4.5,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=300&h=240&fit=crop&crop=center",
     },
   },
   {
@@ -77,10 +77,10 @@ export const products = [
     category: "Brownie",
     price: 5.5,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=300&h=240&fit=crop&crop=center",
     },
   },
   {
@@ -89,10 +89,10 @@ export const products = [
     category: "Panna Cotta",
     price: 6.5,
     image: {
-      thumbnail: "/placeholder.svg?height=100&width=100",
-      mobile: "/placeholder.svg?height=240&width=300",
-      tablet: "/placeholder.svg?height=240&width=300",
-      desktop: "/placeholder.svg?height=240&width=300",
+      thumbnail: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=100&h=100&fit=crop&crop=center",
+      mobile: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=300&h=240&fit=crop&crop=center",
+      tablet: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=300&h=240&fit=crop&crop=center",
+      desktop: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=300&h=240&fit=crop&crop=center",
     },
   },
 ]
