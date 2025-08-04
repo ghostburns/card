@@ -1,139 +1,55 @@
-# Dessert Shop - Product List with Cart
+# 🛍️ Product List with Cart
 
-A modern e-commerce dessert shop built with Next.js, featuring a beautiful product catalog and shopping cart functionality.
+A responsive e-commerce product list page with a functional cart — built as part of the [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d).
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+---
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ghostburns1s-projects/v0-react-product-list)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/HOT9RKmaTaa)
+## 📦 Features
 
-## Overview
+- ✅ Dynamic product rendering from `data.json`
+- 🛒 Fully functional shopping cart
+  - Add to cart
+  - Cart item counter
+  - Cart details dropdown
+- 💻 Responsive layout across devices
+- 🎨 Pixel-perfect styling based on the provided design
+- ⚡ Built using modern front-end best practices
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Features
+## 🧪 Tech Stack
 
-- **Product Catalog**: Browse through a curated selection of premium desserts
-- **Shopping Cart**: Add, remove, and manage items in your cart
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Order Management**: Complete order flow with confirmation
-- **Modern UI**: Clean, intuitive interface with smooth interactions
+| Tech      | Purpose                       |
+|-----------|-------------------------------|
+| HTML/CSS  | Structure & Styling           |
+| JavaScript / React | Logic & UI Interactions        |
+| Tailwind CSS (Optional) | Utility-first CSS framework  |
+| Vite / CRA | Fast development environment  |
 
-## Tech Stack
+> If using Vanilla JS, remove React and Tailwind from the list above.
 
-- **Framework**: Next.js 15 with App Router
-- **Styling**: Tailwind CSS
-- **UI Components**: Radix UI primitives with custom styling
-- **Icons**: Lucide React
-- **TypeScript**: Full type safety throughout the application
+---
 
-## Getting Started
+## 📁 Folder Structure
 
-1. **Clone the repository**
-   \`\`\`bash
-   git clone <repository-url>
-   cd dessert-shop
-   \`\`\`
+```bash
+product-list-cart/
+├── public/
+│   └── data.json          # Product data
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── assets/            # Images, icons, etc.
+│   ├── App.jsx / index.js # App entry points
+│   └── styles/            # CSS or Tailwind configs
+└── README.md
 
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   \`\`\`
 
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-## Project Structure
-
-\`\`\`
-├── app/
-│   ├── components/          # React components
-│   │   ├── Cart.tsx        # Shopping cart component
-│   │   ├── ProductCard.tsx # Individual product display
-│   │   ├── ProductList.tsx # Product grid layout
-│   │   └── OrderConfirmation.tsx # Order success modal
-│   ├── context/            # React context providers
-│   │   └── CartContext.tsx # Cart state management
-│   ├── data/              # Static data
-│   │   └── products.ts    # Product catalog
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx          # Home page
-│   └── globals.css       # Global styles
-├── components/ui/         # Reusable UI components
-└── lib/                  # Utility functions
-\`\`\`
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-
-## Customization
-
-### Adding New Products
-
-Edit `app/data/products.ts` to add new desserts to the catalog:
-
-\`\`\`typescript
-{
-  id: 9,
-  name: "Your Dessert Name",
-  category: "Category",
-  price: 0.00,
-  image: {
-    desktop: "image-url-here",
-    // ... other image sizes
+Product Data Format (from data.json)
+[
+  {
+    "id": 1,
+    "name": "Product Name",
+    "price": 49.99,
+    "image": "./images/product1.jpg"
   }
-}
-\`\`\`
-
-### Styling
-
-The project uses Tailwind CSS for styling. Customize the design by:
-- Modifying `app/globals.css` for global styles
-- Updating component classes in individual files
-- Adjusting the color scheme in the CSS variables
-
-## Deployment
-
-This project is optimized for deployment on Vercel:
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy with zero configuration
-
-Your project is live at:
-
-**[https://vercel.com/ghostburns1s-projects/v0-react-product-list](https://vercel.com/ghostburns1s-projects/v0-react-product-list)**
-
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/HOT9RKmaTaa](https://v0.dev/chat/projects/HOT9RKmaTaa)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## License
-
-This project is open source and available under the MIT License.
+]
